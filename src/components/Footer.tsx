@@ -9,13 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img src={ASSETS.logoLight} alt="Safemove" className="h-8 w-auto mb-4" />
+            <Link to="/" className="inline-flex mb-4" aria-label="Safemove home">
+              <img src={ASSETS.logoLight} alt="Safemove" className="h-8 w-auto" />
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              South Africa's trusted vehicle subscription management partner. Transparent, reliable, and built around you.
+              Simple, secure vehicle subscription management for South African drivers. Manage your account, payments, and support in one place.
             </p>
             <div className="flex items-center gap-2 text-teal text-sm font-semibold">
               <Shield className="w-4 h-4" />
-              <span>Move with Confidence</span>
+              <span>Simple, secure subscription management</span>
             </div>
           </div>
 

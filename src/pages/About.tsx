@@ -44,10 +44,10 @@ export default function About() {
               About Safemove
             </div>
             <h1 className="font-display font-bold text-white text-4xl sm:text-5xl leading-tight mb-5">
-              South Africa's trusted vehicle subscription partner
+              Vehicle subscription management, built around customers
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Safemove was founded on a simple belief: South Africans who subscribe to vehicles deserve a partner that is transparent, reliable, and genuinely on their side.
+              Safemove helps South African drivers manage vehicle subscriptions with clear account access, secure payment processes, and practical support when they need it.
             </p>
           </div>
         </div>
@@ -60,10 +60,10 @@ export default function About() {
             <div>
               <h2 className="section-heading mb-6">Our Mission</h2>
               <p className="text-navy/70 text-base leading-relaxed mb-5">
-                Safemove exists to provide responsible, transparent, and consumer-first vehicle subscription management for South African drivers. We manage the full lifecycle of vehicle subscriptions — from payment collection and customer support through to end-of-term vehicle recovery and disposal.
+                Safemove exists to make vehicle subscription management simple and secure for South African drivers. We help customers view their account, manage payment actions, access support, and keep their subscription running smoothly.
               </p>
               <p className="text-navy/70 text-base leading-relaxed mb-8">
-                We partner with financial institutions, fleet funders, and vehicle subscription originators to ensure that subscriber portfolios are managed with the highest standards of care, compliance, and customer service.
+                Behind the customer portal, we partner with financial institutions, fleet funders, and vehicle subscription originators to manage subscriber portfolios with care, compliance, and consistent customer communication.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[

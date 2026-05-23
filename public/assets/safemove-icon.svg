@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Safemove icon</title>
+  <desc id="desc">Safemove shield icon</desc>
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19C7B5"/>
+      <stop offset="1" stop-color="#0F8F83"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="32" fill="#0B1F3A"/>
+  <path d="M80 20 128 39.8v35.9c0 33-19.7 55.7-48 68.9-28.3-13.2-48-35.9-48-68.9V39.8L80 20Z" fill="url(#shieldGrad)"/>
+  <path d="M54 82.2 72 100.2 108 58" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

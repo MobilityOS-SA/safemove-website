@@ -8,23 +8,23 @@ import { ASSETS, CUSTOMER_PORTAL_URL } from '@/lib/constants'
 const valueProps = [
   {
     icon: Shield,
-    title: 'Regulated & Trustworthy',
-    desc: 'Fully compliant with South African consumer protection legislation. Your subscription is safe with us.',
+      title: 'Everything in one place',
+    desc: 'View your vehicle subscription, payment status, documents, and support options from your Safemove account.',
   },
   {
     icon: Car,
-    title: 'Seamless Subscription',
-    desc: 'Your existing vehicle subscription continues uninterrupted. Same car, same terms — just a better partner.',
+      title: 'Manage payments securely',
+    desc: 'Update debit order details, confirm EFT information, and keep your subscription payments on track.',
   },
   {
     icon: CreditCard,
-    title: 'Flexible Payments',
-    desc: 'Pay by debit order, EFT, or credit card. Manage everything securely through your online account.',
+      title: 'Keep your subscription moving',
+    desc: 'Your vehicle, terms, and monthly payment remain unchanged unless we tell you otherwise. Safemove manages the transition and ongoing administration.',
   },
   {
     icon: HeadphonesIcon,
-    title: 'Dedicated Support',
-    desc: 'A dedicated South African support team available to assist you every step of the way.',
+      title: 'Support when you need it',
+    desc: 'Get help from a South African team that understands your subscription and can guide you through the next step.',
   },
 ]
 
@@ -75,13 +75,13 @@ export default function Home() {
           <div className="max-w-2xl">
             <div className="badge-teal mb-6 w-fit">
               <Shield className="w-3.5 h-3.5" />
-              South Africa's Trusted Vehicle Subscription Partner
+              Vehicle Subscription Management
             </div>
             <h1 className="font-display font-bold text-white text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
-              Move with <span className="text-teal">Confidence</span>
+              Manage your vehicle subscription with <span className="text-teal">Safemove</span>
             </h1>
             <p className="text-gray-200 text-lg sm:text-xl leading-relaxed mb-10 max-w-xl">
-              Safemove manages vehicle subscriptions for thousands of South Africans — providing transparent, reliable, and consumer-first fleet management.
+              Simple, secure subscription management for South African drivers. View your account, update payment details, contact support, and keep your vehicle subscription running smoothly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -150,9 +150,9 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="section-heading mb-4">Why Safemove?</h2>
+            <h2 className="section-heading mb-4">Manage your subscription with clarity</h2>
             <p className="section-subheading mx-auto">
-              We exist to give vehicle subscription customers a trustworthy, transparent home for their subscription — with the support and technology to back it up.
+              Safemove gives vehicle subscription customers a simple, secure place to manage account details, payment actions, support requests, and transition updates.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -176,11 +176,11 @@ export default function Home() {
             <div>
               <div className="badge-teal mb-6 w-fit">
                 <CheckCircle className="w-3.5 h-3.5" />
-                Simple Process
+                Simple Account Management
               </div>
-              <h2 className="section-heading mb-6">Getting started is simple</h2>
+              <h2 className="section-heading mb-6">Managing your subscription is simple</h2>
               <p className="text-mist text-base leading-relaxed mb-10">
-                Whether you are an existing Planet42 customer transitioning to Safemove, or a new subscriber, the process is straightforward and takes just a few minutes.
+                Whether you are an existing Planet42 customer transitioning to Safemove, or an active subscriber managing your account, the process is straightforward and designed around clear next steps.
               </p>
               <div className="space-y-6">
                 {steps.map((step) => (
@@ -216,8 +216,8 @@ export default function Home() {
                   <CheckCircle className="w-5 h-5 text-green-trust" />
                 </div>
                 <div>
-                  <p className="text-navy font-bold text-sm">Subscription Active</p>
-                  <p className="text-mist text-xs">Your vehicle is protected</p>
+                  <p className="text-navy font-bold text-sm">Subscription Managed</p>
+                  <p className="text-mist text-xs">Your account stays on track</p>
                 </div>
               </div>
             </div>
@@ -243,10 +243,10 @@ export default function Home() {
             </div>
           </div>
           <h2 className="font-display font-bold text-white text-3xl sm:text-4xl mb-4">
-            Trusted by thousands of South African drivers
+            Simple, secure subscription management
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-10">
-            Safemove is the responsible, regulated home for your vehicle subscription. We are committed to transparency, compliance, and putting customers first.
+            Safemove helps South African drivers manage vehicle subscriptions with clear account access, secure payment updates, and practical support when it matters.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

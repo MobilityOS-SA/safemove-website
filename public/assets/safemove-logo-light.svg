@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img" aria-labelledby="title desc">
+  <title id="title">Safemove</title>
+  <desc id="desc">Safemove logo for dark backgrounds</desc>
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#19C7B5"/>
+      <stop offset="1" stop-color="#0F8F83"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M79.5 15 130 35.8v37.7c0 34.7-20.7 58.6-50.5 72.5C49.7 132.1 29 108.2 29 73.5V35.8L79.5 15Z" fill="url(#shieldGrad)"/>
+    <path d="M52 80.2 70.7 98.8 109 55" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="165" y="98" font-family="Sora, Inter, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="#FFFFFF">safe<tspan fill="#19C7B5">move</tspan></text>
+    <text x="169" y="128" font-family="Nunito Sans, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="1.5" fill="#AAB7C7">VEHICLE SUBSCRIPTION MANAGEMENT</text>
+  </g>
+</svg>
